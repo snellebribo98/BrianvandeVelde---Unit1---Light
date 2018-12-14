@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfX-Lu-pJb">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfX-Lu-pJb">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Hello, World!"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9l2-y2-1WR"/>
@@ -27,6 +26,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VfX-Lu-pJb" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="1sa-Sh-7LF"/>
+                            <constraint firstItem="VfX-Lu-pJb" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="44i-V0-VKh"/>
+                            <constraint firstItem="VfX-Lu-pJb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="omF-kS-NfQ"/>
+                            <constraint firstItem="VfX-Lu-pJb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="taH-SC-0JG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
